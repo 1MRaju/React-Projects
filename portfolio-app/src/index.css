@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Fira+Sans:wght@300&family=Montserrat+Alternates:wght@500&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Rajdhani:wght@300&family=Roboto&family=Ubuntu&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: black;
+  /* height: 100%;
+  width: 100%; */
+}
+
+h1,h2,h4,h3, p, a{
+  color: #ffffff89;
+  text-decoration: none;
+  /* text-shadow: 2px 2px 4px rgba(7, 213, 249, 0.649); */
+}
+
+
+.btn {
+  width: fit-content !important;
+  border: 1px solid rgba(7, 213, 249, 0.349);
+  box-shadow: 0px 8px 16px rgba(7, 213, 249, 0.649);
+  color: rgba(7, 213, 249, 0.849);
+  padding: 8px 13px; 
+  letter-spacing: 1px;
+  min-width: 150px;
+  background: none;
+  transition: border-color 0.5s, transform 0.5s;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: inset 0px 6px 14px rgba(7, 213, 249, 0.349);
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+
+@media screen and (max-width: 1040px){
+  .btn{
+    min-width: 120px;
+    font-size: 13px;
+  }
+}

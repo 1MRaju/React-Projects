@@ -1,0 +1,118 @@
+
+  /* Form Styling */
+.form {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 2rem;
+}
+
+/* Item Container Styling */
+.items-container {
+  max-width: 1140px;
+  margin: auto;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.projects-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 20px;
+}
+
+.item-container {
+  max-width: 1140px;
+  margin: auto;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  position: relative;
+}
+
+/* Item Card Styling */
+.item-card {
+  position: relative;
+  background: black;
+  border: 1px solid rgba(7, 213, 249, 0.425) !important;
+  padding: 1.2rem 1rem;
+  width: calc(33.33% - 40px);
+  margin-right: 40px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  box-shadow: inset 0px 8px 16px rgba(7, 213, 249, 0.349);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  transition: border-color 0.5s, transform 0.5s;
+}
+
+.item-card:hover {
+  transform: rotateY(15deg);
+  box-shadow: 2px 8px 16px rgba(7, 213, 249, 0.349);
+}
+
+.item-card:hover img {
+  box-shadow: 0px 8px 16px rgba(7, 213, 249, 0.349);
+  border-color: rgba(7, 213, 249, 0.349);
+  transform: scale(1.05);
+}
+
+.item-card h2 {
+  margin: 10px;
+}
+
+.item-details p {
+  margin: 10px;
+}
+
+.item-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  gap: 10px;
+}
+
+.item-card .projectImg {
+  width: 200px;
+  height: 200px;
+}
+
+.item-heading h1{
+  text-align: center;
+  padding: 10px;
+}
+
+.addButton button{
+  display: block;
+  margin: 5px auto;
+}
+/* Responsive Styling */
+@media screen and (max-width: 960px) {
+  .item-card {
+    width: calc(50% - 30px);
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .item-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .item-card {
+    width: 100%;
+    margin-right: 0;
+  }
+}
