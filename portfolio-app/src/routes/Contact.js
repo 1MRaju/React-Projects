@@ -1,23 +1,3 @@
-// import React from 'react'
-// import Navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
-// import HeroImgNew from '../components/HeroImgNew'
-
-// const Contact = () => {
-//      let heading = 'CONTACT.'
-//      let  text = "Let's collaborate"
-  
-//   return (
-//     <>
-//     <Navbar/>
-//     <HeroImgNew heading={heading} text={text}/>
-//     <Footer/>
-//   </>
-//   )
-// }
-
-// export default Contact
-
 
 import React from 'react';
 import Navbar from '../components/Navbar';
